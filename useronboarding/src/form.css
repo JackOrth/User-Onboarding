@@ -1,0 +1,43 @@
+.form-container{
+    display:flex;
+    justify-content: space-between;
+    margin: 3%;  
+    border-bottom: 2px dotted black;
+    padding-bottom: 5%;
+    text-align: center;
+    
+}
+button{
+  padding:40%;
+  border-radius: 25px;
+  font-size: 25px;
+  background-color:darkslategrey;
+  color:floralwhite;
+}
+button:hover{
+    cursor: pointer;
+}
+.second-form-group{
+    display:flex;
+    flex-direction: column;
+    padding-right:0%;
+    margin-right: 0%;
+}
+.second-form-group .label-one label{
+    display:flex;
+    flex-direction:column;
+    margin-bottom:7%;
+}
+.second-form-group .label-two label{
+    display:flex;
+    flex-direction:column;
+    margin-bottom:7%;
+}
+.second-form-group .label-three label{
+    display:flex;
+    flex-direction:column;
+    margin-bottom:7%;
+}
+.second-form-group input{
+    margin-left: 1%;
+}
